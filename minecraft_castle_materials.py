@@ -1,6 +1,6 @@
 import openpyxl
 from openpyxl import Workbook
-#import os
+import os
 
 # File to store the material data in Excel format
 EXCEL_FILE = 'minecraft_build_castle_materials.xlsx'
@@ -190,3 +190,4 @@ def main():
     return
 
 main()
+print(os.path.abspath(EXCEL_FILE))
