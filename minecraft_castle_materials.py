@@ -2,8 +2,8 @@ import openpyxl # type: ignore
 from openpyxl import Workbook # type: ignore
 import os
 
-# File to store the material data in Excel format
-EXCEL_FILE = 'minecraft_build_castle_materials.xlsx'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+EXCEL_FILE = os.path.join(BASE_DIR, 'minecraft_build_castle_materials.xlsx')
 
 # Create a new Excel file (if it doesn't exist)
 def create_excel_file():
