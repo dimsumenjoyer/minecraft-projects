@@ -1,5 +1,5 @@
-import openpyxl
-from openpyxl import Workbook
+import openpyxl # type: ignore
+from openpyxl import Workbook # type: ignore
 import os
 
 # File to store the material data in Excel format
@@ -102,7 +102,7 @@ def main():
     update_material("Polished Deepslate Stairs", 138, 0)
     update_material("Polished Andesite", 1807, 394)
     update_material("Cherry Sapling", 66, 7)
-    update_material("Andesite", 495, 0)
+    update_material("Andesite", 495, 80)
     update_material("Polished Andesite Slab", 362, 0)
     update_material("Cherry Trapdoor", 359, 0)
     update_material("Cherry Fence", 354, 0)
@@ -119,9 +119,9 @@ def main():
     update_material("Lantern", 121, 0)
     update_material("Stone Brick Wall", 117, 0)
     update_material("Mossy Stone Bricks", 101, 0)
-    update_material("Andesite Stairs", 98, 0)
+    update_material("Andesite Stairs", 98, 3)
     update_material("Grass Block", 97, 0)
-    update_material("Red Carpet", 91, 0)
+    update_material("Red Carpet", 91, 96)
     update_material("Flower Pot", 88, 0)
     update_material("Chain", 56, 0)
     update_material("Lightning Rod", 52, 0)
@@ -131,7 +131,7 @@ def main():
     
     update_material("Andesite Slab", 39, 0)
     update_material("Decorated Pot", 39, 0)
-    update_material("Red Wool", 32, 0)
+    update_material("Red Wool", 32, 128)
     update_material("Dark Oak Trapdoor", 30, 0)
     update_material("Diorite Wall", 29, 0)
     update_material("Dark Oak Stairs", 28, 0)
@@ -185,6 +185,8 @@ def main():
     update_material("Oxeye Daisy", 1, 0)
     update_material("Smithing Table", 1, 0)
     update_material("Stonecutter", 1, 0)
+    
+    update_material("Diorite", 0, 45)
     
     display_materials()
     return
