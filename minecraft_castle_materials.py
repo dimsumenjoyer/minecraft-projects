@@ -1,5 +1,5 @@
-import openpyxl # type: ignore
-from openpyxl import Workbook # type: ignore
+import openpyxl
+from openpyxl import Workbook
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
