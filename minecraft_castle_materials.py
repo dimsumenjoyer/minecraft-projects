@@ -1,9 +1,9 @@
-import openpyxl
-from openpyxl import Workbook
+import openpyxl # type: ignore
+from openpyxl import Workbook # type: ignore
 import os
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-EXCEL_FILE = os.path.join(BASE_DIR, 'minecraft_build_castle_materials.xlsx')
+# File to store the material data in Excel format
+EXCEL_FILE = 'minecraft_build_castle_materials.xlsx'
 
 # Create a new Excel file (if it doesn't exist)
 def create_excel_file():
@@ -91,7 +91,7 @@ def main():
     
     # Page 1/3
     update_material("Calcite", 2129, 98)
-    update_material('Cherry Log', 673, 81)
+    update_material('Cherry Log', 673, 304)
     update_material("Bamboo", 154, 192)
     update_material("Stone", 182, 1152)
     update_material("Stone Brick", 270, 372)
@@ -101,7 +101,7 @@ def main():
     update_material("Polished Deepslate Wall", 332, 0)
     update_material("Polished Deepslate Stairs", 138, 0)
     update_material("Polished Andesite", 1807, 394)
-    update_material("Cherry Sapling", 66, 7)
+    update_material("Cherry Sapling", 66, 118)
     update_material("Andesite", 495, 80)
     update_material("Polished Andesite Slab", 362, 0)
     update_material("Cherry Trapdoor", 359, 0)
@@ -111,7 +111,7 @@ def main():
     update_material("Crimson Stairs", 303, 0)
     update_material("Crimson Planks", 300, 0)
     update_material("Candle", 169, 0)
-    update_material("Cherry Leaves", 169, 0)
+    update_material("Cherry Leaves", 169, 192)
     update_material("Polished Diorite", 164, 0)
     update_material("Cherry Slab", 141, 0)
     update_material("Cracked Stone Bricks", 140, 0)
@@ -125,7 +125,7 @@ def main():
     update_material("Flower Pot", 88, 0)
     update_material("Chain", 56, 0)
     update_material("Lightning Rod", 52, 0)
-    update_material("Chest", 43, 0)
+    update_material("Chest", 43, 43)
     
     # Page 2/3
     
@@ -147,23 +147,23 @@ def main():
     update_material("Crimson Fence", 18, 0)
     update_material("Stripped Dark Oak Log", 17, 0)
     update_material("Cherry Door", 12, 0)
-    update_material("Pink Carpet", 12, 0)
+    update_material("Pink Carpet", 12, 63)
     update_material("Yellow Banner", 10, 0)
-    update_material("Yellow Carpet", 10, 0)
+    update_material("Yellow Carpet", 10, 96)
     update_material("Cherry Planks", 9, 0)
     update_material("Campfire", 8, 0)
     update_material("Polished Deepslate", 6, 0)
     update_material("Scaffolding", 6, 0)
     update_material("Stripped Cherry Log", 6, 0)
-    update_material("Shroomlight", 5, 0)
+    update_material("Shroomlight", 5, 24)
     update_material("Cauldron", 4, 0)
-    update_material("Dandelion", 4, 0)
+    update_material("Dandelion", 4, 14)
     update_material("Lectern", 4, 0)
     update_material("Sea Pickle", 4, 0)
     update_material("Azure Bluet", 3, 0)
     update_material("Cactus", 3, 0)
     update_material("Pink Bed", 3, 0)
-    update_material("Poppy", 3, 0)
+    update_material("Poppy", 3, 106)
     update_material("Brewing Stand", 2, 0)
     
     # Page 3/3
@@ -186,7 +186,20 @@ def main():
     update_material("Smithing Table", 1, 0)
     update_material("Stonecutter", 1, 0)
     
+    # extra?
+    
     update_material("Diorite", 0, 45)
+    update_material("Pink Wool", 0, 128)
+    update_material("Yellow Wool", 0, 128)
+    update_material("Crimson Stem", 0, 194)
+    update_material("Crimson Roots", 0, 1)
+    update_material("Weeping Vines", 0, 6)
+    update_material("Red Mushroom", 0, 1)
+    update_material("Stick", 0, 72)
+    update_material("Nether Wart Block", 0, 108)
+    update_material("Bone Block", 0, 17)
+    update_material("Bone Meal", 0, 11)
+    update_material("Leather", 0, 3)
     
     display_materials()
     return
