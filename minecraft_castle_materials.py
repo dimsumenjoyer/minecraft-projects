@@ -91,7 +91,7 @@ def main():
     
     # Page 1/3
     update_material("Calcite", 2129, 98)
-    update_material('Cherry Log', 673, 477)
+    update_material('Cherry Log', 673, 741)
     update_material("Bamboo", 154, 192)
     update_material("Stone", 182, 1152)
     update_material("Stone Brick", 270, 372)
@@ -101,7 +101,7 @@ def main():
     update_material("Polished Deepslate Wall", 332, 0)
     update_material("Polished Deepslate Stairs", 138, 0)
     update_material("Polished Andesite", 1807, 394)
-    update_material("Cherry Sapling", 66, 230)
+    update_material("Cherry Sapling", 66, 379)
     update_material("Andesite", 495, 80)
     update_material("Polished Andesite Slab", 362, 0)
     update_material("Cherry Trapdoor", 359, 0)
@@ -116,7 +116,7 @@ def main():
     update_material("Cherry Slab", 141, 0)
     update_material("Cracked Stone Bricks", 140, 0)
     update_material("Polished Deepslate Stairs", 138, 0)
-    update_material("Lantern", 121, 0)
+    update_material("Lantern", 121, 4)
     update_material("Stone Brick Wall", 117, 0)
     update_material("Mossy Stone Bricks", 101, 0)
     update_material("Andesite Stairs", 98, 3)
@@ -193,11 +193,12 @@ def main():
     update_material("Crimson Roots", 0, 1)
     update_material("Weeping Vines", 0, 6)
     update_material("Red Mushroom", 0, 1)
-    update_material("Stick", 0, 148)
+    update_material("Stick", 0, 231)
     update_material("Nether Wart Block", 0, 108)
     update_material("Bone Block", 0, 17)
     update_material("Bone Meal", 0, 11)
     update_material("Leather", 0, 3)
+    update_material("Warped Roots", 0, 2)
     
     display_materials()
     return
