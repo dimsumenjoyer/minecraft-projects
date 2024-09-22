@@ -154,7 +154,7 @@ def main():
     update_material("Polished Deepslate", 6, 0)
     update_material("Scaffolding", 6, 0)
     update_material("Stripped Cherry Log", 6, 0)
-    update_material("Shroomlight", 5, 24)
+    update_material("Shroomlight", 5, 37)
     update_material("Cauldron", 4, 0)
     update_material("Dandelion", 4, 14)
     update_material("Lectern", 4, 0)
